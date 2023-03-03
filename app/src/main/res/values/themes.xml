@@ -12,6 +12,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <item name="radioButtonStyle">@style/Widget.TipTime.CompoundButton.RadioButton</item>
+        <item name="switchStyle">@style/Widget.TipTime.CompoundButton.Switch</item>
     </style>
 
     <style name="Theme.TipCalculator.NoActionBar">
@@ -22,4 +25,6 @@
     <style name="Theme.TipCalculator.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.TipCalculator.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+
 </resources>
